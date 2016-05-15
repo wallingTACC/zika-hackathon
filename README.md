@@ -21,6 +21,12 @@ Shaun Carland - https://github.com/shauncarland/zikavirus - PAHO scrapper in Rub
 
 Mosquito Occurrence Dataset - http://www.gbif.org/dataset/88e38292-f762-11e1-a439-00145eb45e9a - Walter Reed Biosystematics Unit, Smithsonian Institution
 
+## How to contribute
+Follow the [how to contribute](CONTRIBUTE.md) guide to contribute to the Zika Hackathon repo from your fork or local git clone.
+
+## License
+Any new content, data or information that is not subject to a prior license is provided under the Apache Software License 2.0. See the file [LICENSE](LICENSE) for more information.
+
 # Compute Resources
 
 We have created an allocation on TACC's Wrangler data system(https://www.tacc.utexas.edu/systems/wrangler).  Wrangler includes 500TB of high speed flash storage attached to 96 24-core, 128GB RAM compute nodes.  Optimized versions of popular data anatlytic tools are pre-installed, including R, Python and Hadoop.
@@ -51,8 +57,4 @@ Rstudio, Jupyter and general VNC sessions are avaiable to the Wrangler compute n
 
 After logging into the portal, select the Wrangler tab and follow the prompts for launching your sessions.
 
-## How to contribute
-Follow the [how to contribute](CONTRIBUTE.md) guide to contribute to the Zika Hackathon repo from your fork or local git clone.
 
-## License
-Any new content, data or information that is not subject to a prior license is provided under the Apache Software License 2.0. See the file [LICENSE](LICENSE) for more information.
