@@ -21,6 +21,35 @@ Shaun Carland - https://github.com/shauncarland/zikavirus - PAHO scrapper in Rub
 
 Mosquito Occurrence Dataset - http://www.gbif.org/dataset/88e38292-f762-11e1-a439-00145eb45e9a - Walter Reed Biosystematics Unit, Smithsonian Institution
 
+# Compute Resources
+
+We have created an allocation on TACC's Wrangler data system(https://www.tacc.utexas.edu/systems/wrangler).  Wrangler includes 500TB of high speed flash storage attached to 96 24-core, 128GB RAM compute nodes.  Optimized versions of popular data anatlytic tools are pre-installed, including R, Python and Hadoop.
+
+Please see David Walling in conf1 for getting access to this system.
+
+## Pre-staged Datasets
+
+We have pre-staged datasets related to this hackathon at the following location:  /data/shared/zika
+
+In addition to the data available in github, we have included a collection of aerial photography images of the Austin area, as well as a download of the open access subset from PubMed.
+
+## Resource Reservations
+
+For this hackathon, we have created a 10 node Hadoop cluster available under the reservation id: hadoop+Zika+1487
+
+In order to submit jobs to this cluster, you must:
+
+* create a TACC account.
+* see David Walling to get added to the project allocation.
+* ssh to wrangler: $> ssh username@wrangler.tacc.utexas.edu
+* create an interactive session: $> idev -r hadoop+Zika+1487
+* interact with the cluster from the commandline: Ex. hadoop fs -ls /tmp/zika
+
+## Interactive Consoles
+
+Rstudio, Jupyter and general VNC sessions are avaiable to the Wrangler compute nodes from our visualization portal:  http://vis.tacc.utexas.edu
+
+After logging into the portal, select the Wrangler tab and follow the prompts for launching your sessions.
 
 ## How to contribute
 Follow the [how to contribute](CONTRIBUTE.md) guide to contribute to the Zika Hackathon repo from your fork or local git clone.
